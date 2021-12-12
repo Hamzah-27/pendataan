@@ -1,0 +1,93 @@
+/*mengatur font yang dipakai dan background halaman*/
+body {
+  font-family: Arial;
+}
+
+/*membuat container menjadi layout flexbox dan kotak login di tengan*/
+.container-css {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/*Mengatur desain header*/
+header {
+  overflow: hidden;
+  background: #24832c;
+  color: #fff;
+  padding: 15px 20px;
+  font-size: 20px;
+}
+
+/*Mengatur lebar menu 20% dengan background hitam*/
+aside {
+  flex: 20%;
+  background: #222;
+}
+
+/*Mengatur lebar konten utama 80% dengan background putih*/
+section.main {
+  flex: 80%;
+  background: #fff;
+  min-height: 530px;
+}
+
+/*Mengatur lebar footer dengan background abu-abu dan teks di tengah*/
+footer {
+  background: #ccc;
+  color: #555;
+  padding: 20px;
+  text-align: center;
+}
+
+/*Mengatur layout pada layar kecil (responsive)*/
+@media (max-width: 700px) {
+  .container-css {
+    flex-direction: column;
+  }
+}
+
+/*Navigasi*/
+/*Membuang padding tag <ul> */
+.menu {
+  padding: 0;
+}
+
+/*Menambah border bawah tag <li> */
+.menu li {
+  border-bottom: 1px dotted #444;
+}
+
+/*Mengatur desain menu yang dibuat dengan tag <a>*/
+.menu a {
+  display: block;
+  padding: 20px 20px;
+  list-style: none;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/*Mengganti background menu ketika ditunjuk mouse*/
+.menu a:hover {
+  background: #000;
+  color: #ffffff;
+}
+
+/*Mengatur desain judul halaman dengan border di bawah*/
+/* .judul {
+  color: #555;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 15px;
+} */
+
+/* Mengatur form-group ahar tidak terpengaruh float
+.form-group {
+  clear: both;
+} */
+
+/*Membuat tampilan form menumpuk pada layar kecil*/
+/* @media (max-width: 700px) {
+  .form-group label,
+  .form-group .input {
+    width: 100%;
+  } */

@@ -128,6 +128,7 @@
                         </div>
                     </div>
                     <button type="submit" class="btn btn-primary">Submit</button>
+                    <a href="/dashboard/detail/<?= $penduduk['id']; ?>" class="btn btn-warning">Batal</a>
                 </form>
             </div>
         </div>

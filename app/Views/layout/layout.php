@@ -30,18 +30,21 @@
 
         </aside>
         <?= $this->renderSection('content'); ?>
+
         <!-- Javascript -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
         </script>
 
-        <Script>
+        <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
+        <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+        <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+
+        <!-- Script Penampilfoto -->
+        <script>
         function previewImg() {
             const foto = document.querySelector('#foto');
-            // const coverLabel = document.querySelector('.input-group-text');
             const imgPreview = document.querySelector('.img-preview');
-
-            // coverLabel.textContent = cover.files[0].name;
 
             const $fileFoto = new FileReader();
             $fileFoto.readAsDataURL(foto.files[0]);
@@ -51,8 +54,24 @@
             }
         }
         </script>
-        </Script>
+
+        <!-- Script hitung umur otomatis -->
+        <script type="text/javascript">
+        $(function() {
+            $("#tgl_lahir")
+        });
+
+        window.onload = function() {
+            $('#tgl_lahir').on('change', function() {
+                var dob = new Date(this.value);
+                var today = new Date();
+                var age = Math.floor((today - dob) / (365.25 * 24 * 60 * 60 * 1000));
+                $('#usia').val(age);
+            });
+        }
+        </script>
     </div>
+
     <footer>Copyright &copy; Muhammad Hamzah Risvi</footer>
 </body>
 

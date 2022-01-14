@@ -25,7 +25,7 @@
                         <div class="col-sm-10">
                             <input type="date"
                                 class="form-control <?= ($validation->hasError('tgl_lahir')) ? 'is-invalid' : ''; ?>"
-                                name="tgl_lahir">
+                                name="tgl_lahir" id="tgl_lahir">
                             <div class="invalid-feedback">
                                 <?= $validation->getError('tgl_lahir'); ?>
                             </div>
@@ -48,7 +48,7 @@
                         <div class="col-sm-10">
                             <input type="text"
                                 class="form-control <?= ($validation->hasError('usia')) ? 'is-invalid' : ''; ?>"
-                                name="usia">
+                                name="usia" id="usia">
                             <div class="invalid-feedback">
                                 <?= $validation->getError('usia'); ?>
                             </div>

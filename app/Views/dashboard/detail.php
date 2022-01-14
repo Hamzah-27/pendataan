@@ -25,6 +25,7 @@
                                 <form action="/penduduk/delete/<?= $penduduk['id']; ?>" method="POST" class="d-inline">
                                     <button type="submit" class="btn btn-danger"
                                         onclick="return confirm('Apakah anda yakin ?')">Delete</button>
+                                    <a href="/dashboard/datapenduduk" class="btn btn-warning">Kembali</a>
                                 </form>
                                 <br><br>
                             </div>

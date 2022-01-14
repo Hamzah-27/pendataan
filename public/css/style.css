@@ -25,6 +25,10 @@ aside {
   background: #222;
 }
 
+.active {
+  background-color: #000;
+}
+
 /*Mengatur lebar konten utama 80% dengan background putih*/
 section.main {
   flex: 80%;
@@ -43,6 +47,7 @@ footer {
 /*Mengatur layout pada layar kecil (responsive)*/
 @media (max-width: 700px) {
   .container-css {
+    display: flex;
     flex-direction: column;
   }
 }

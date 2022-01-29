@@ -1,0 +1,148 @@
+CRITICAL - 2022-01-19 21:17:33 --> Undefined variable: datalaki
+#0 C:\xampp\htdocs\pendataan\app\Views\pimpinan\index.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 50, Array)
+#1 C:\xampp\htdocs\pendataan\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pendataan\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pendataan\system\Common.php(1097): CodeIgniter\View\View->render('pimpinan/index', Array, true)
+#4 C:\xampp\htdocs\pendataan\app\Controllers\Pimpinan.php(24): view('pimpinan/index', Array)
+#5 C:\xampp\htdocs\pendataan\system\CodeIgniter.php(824): App\Controllers\Pimpinan->index()
+#6 C:\xampp\htdocs\pendataan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pimpinan))
+#7 C:\xampp\htdocs\pendataan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pendataan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\pendataan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-19 21:18:32 --> Undefined variable: datalaki
+#0 C:\xampp\htdocs\pendataan\app\Views\pimpinan\index.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 50, Array)
+#1 C:\xampp\htdocs\pendataan\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pendataan\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pendataan\system\Common.php(1097): CodeIgniter\View\View->render('pimpinan/index', Array, true)
+#4 C:\xampp\htdocs\pendataan\app\Controllers\Pimpinan.php(24): view('pimpinan/index', Array)
+#5 C:\xampp\htdocs\pendataan\system\CodeIgniter.php(824): App\Controllers\Pimpinan->index()
+#6 C:\xampp\htdocs\pendataan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pimpinan))
+#7 C:\xampp\htdocs\pendataan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pendataan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\pendataan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-19 21:27:44 --> Undefined variable: currentPage
+#0 C:\xampp\htdocs\pendataan\app\Views\pimpinan\laporandata.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\pendataan\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pendataan\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pendataan\system\Common.php(1097): CodeIgniter\View\View->render('pimpinan/lapora...', Array, true)
+#4 C:\xampp\htdocs\pendataan\app\Controllers\Pimpinan.php(45): view('pimpinan/lapora...', Array)
+#5 C:\xampp\htdocs\pendataan\system\CodeIgniter.php(824): App\Controllers\Pimpinan->laporandata()
+#6 C:\xampp\htdocs\pendataan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pimpinan))
+#7 C:\xampp\htdocs\pendataan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pendataan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\pendataan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-19 21:37:15 --> Undefined variable: datalaki
+#0 C:\xampp\htdocs\pendataan\app\Views\pimpinan\index.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 50, Array)
+#1 C:\xampp\htdocs\pendataan\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pendataan\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pendataan\system\Common.php(1097): CodeIgniter\View\View->render('pimpinan/index', Array, true)
+#4 C:\xampp\htdocs\pendataan\app\Controllers\Pimpinan.php(24): view('pimpinan/index', Array)
+#5 C:\xampp\htdocs\pendataan\system\CodeIgniter.php(824): App\Controllers\Pimpinan->index()
+#6 C:\xampp\htdocs\pendataan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pimpinan))
+#7 C:\xampp\htdocs\pendataan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pendataan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\pendataan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-19 21:37:31 --> Array to string conversion
+#0 C:\xampp\htdocs\pendataan\app\Views\pimpinan\index.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 50, Array)
+#1 C:\xampp\htdocs\pendataan\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pendataan\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pendataan\system\Common.php(1097): CodeIgniter\View\View->render('pimpinan/index', Array, true)
+#4 C:\xampp\htdocs\pendataan\app\Controllers\Pimpinan.php(24): view('pimpinan/index', Array)
+#5 C:\xampp\htdocs\pendataan\system\CodeIgniter.php(824): App\Controllers\Pimpinan->index()
+#6 C:\xampp\htdocs\pendataan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pimpinan))
+#7 C:\xampp\htdocs\pendataan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pendataan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\pendataan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-19 21:40:53 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-19 21:50:20 --> Undefined variable: p
+#0 C:\xampp\htdocs\pendataan\app\Views\pimpinan\index.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 50, Array)
+#1 C:\xampp\htdocs\pendataan\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pendataan\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pendataan\system\Common.php(1097): CodeIgniter\View\View->render('pimpinan/index', Array, true)
+#4 C:\xampp\htdocs\pendataan\app\Controllers\Pimpinan.php(24): view('pimpinan/index', Array)
+#5 C:\xampp\htdocs\pendataan\system\CodeIgniter.php(824): App\Controllers\Pimpinan->index()
+#6 C:\xampp\htdocs\pendataan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pimpinan))
+#7 C:\xampp\htdocs\pendataan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pendataan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\pendataan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-19 22:14:14 --> Call to undefined method App\Models\PendudukModel::getResult
+#0 C:\xampp\htdocs\pendataan\app\Models\PendudukModel.php(39): CodeIgniter\Model->__call('getResult', Array)
+#1 C:\xampp\htdocs\pendataan\app\Controllers\Pimpinan.php(64): App\Models\PendudukModel->datalakilaki()
+#2 C:\xampp\htdocs\pendataan\system\CodeIgniter.php(824): App\Controllers\Pimpinan->lapdatalaki()
+#3 C:\xampp\htdocs\pendataan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pimpinan))
+#4 C:\xampp\htdocs\pendataan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pendataan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\pendataan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-01-19 22:15:21 --> Call to undefined method App\Models\PendudukModel::getResultArray
+#0 C:\xampp\htdocs\pendataan\app\Models\PendudukModel.php(39): CodeIgniter\Model->__call('getResultArray', Array)
+#1 C:\xampp\htdocs\pendataan\app\Controllers\Pimpinan.php(64): App\Models\PendudukModel->datalakilaki()
+#2 C:\xampp\htdocs\pendataan\system\CodeIgniter.php(824): App\Controllers\Pimpinan->lapdatalaki()
+#3 C:\xampp\htdocs\pendataan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pimpinan))
+#4 C:\xampp\htdocs\pendataan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pendataan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\pendataan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-01-19 22:16:03 --> Call to a member function paginate() on array
+#0 C:\xampp\htdocs\pendataan\system\CodeIgniter.php(824): App\Controllers\Pimpinan->lapdatalaki()
+#1 C:\xampp\htdocs\pendataan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pimpinan))
+#2 C:\xampp\htdocs\pendataan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pendataan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\pendataan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-19 22:16:32 --> Call to a member function paginate() on array
+#0 C:\xampp\htdocs\pendataan\system\CodeIgniter.php(824): App\Controllers\Pimpinan->lapdatalaki()
+#1 C:\xampp\htdocs\pendataan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pimpinan))
+#2 C:\xampp\htdocs\pendataan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pendataan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\pendataan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-19 22:16:50 --> Undefined variable: currentPage
+#0 C:\xampp\htdocs\pendataan\app\Views\pimpinan\laporandata.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\pendataan\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pendataan\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pendataan\system\Common.php(1097): CodeIgniter\View\View->render('pimpinan/lapora...', Array, true)
+#4 C:\xampp\htdocs\pendataan\app\Controllers\Pimpinan.php(67): view('pimpinan/lapora...', Array)
+#5 C:\xampp\htdocs\pendataan\system\CodeIgniter.php(824): App\Controllers\Pimpinan->lapdatalaki()
+#6 C:\xampp\htdocs\pendataan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pimpinan))
+#7 C:\xampp\htdocs\pendataan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pendataan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\pendataan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-19 22:17:28 --> Call to a member function links() on null
+#0 C:\xampp\htdocs\pendataan\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\pendataan\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pendataan\system\Common.php(1097): CodeIgniter\View\View->render('pimpinan/lapora...', Array, true)
+#3 C:\xampp\htdocs\pendataan\app\Controllers\Pimpinan.php(69): view('pimpinan/lapora...', Array)
+#4 C:\xampp\htdocs\pendataan\system\CodeIgniter.php(824): App\Controllers\Pimpinan->lapdatalaki()
+#5 C:\xampp\htdocs\pendataan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pimpinan))
+#6 C:\xampp\htdocs\pendataan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pendataan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\pendataan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-01-19 22:18:20 --> Call to a member function links() on null
+#0 C:\xampp\htdocs\pendataan\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\pendataan\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pendataan\system\Common.php(1097): CodeIgniter\View\View->render('pimpinan/lapora...', Array, true)
+#3 C:\xampp\htdocs\pendataan\app\Controllers\Pimpinan.php(69): view('pimpinan/lapora...', Array)
+#4 C:\xampp\htdocs\pendataan\system\CodeIgniter.php(824): App\Controllers\Pimpinan->lapdatalaki()
+#5 C:\xampp\htdocs\pendataan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pimpinan))
+#6 C:\xampp\htdocs\pendataan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pendataan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\pendataan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-01-19 22:19:06 --> Call to a member function paginate() on array
+#0 C:\xampp\htdocs\pendataan\system\CodeIgniter.php(824): App\Controllers\Pimpinan->lapdatalaki()
+#1 C:\xampp\htdocs\pendataan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pimpinan))
+#2 C:\xampp\htdocs\pendataan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pendataan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\pendataan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}

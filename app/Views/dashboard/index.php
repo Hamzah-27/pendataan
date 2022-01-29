@@ -1,48 +1,75 @@
 <?= $this->extend('layout/layout'); ?>
 
 <?= $this->section('content'); ?>
-<section class="main">
-    <div class="container">
-        <div class="row mt-sm-4">
-            <h2>Welcome to dashboard</h2>
-            <div class="col-sm-4 mb-3">
-                <div class="card" style="width: 18rem;">
-                    <img src="/img/penduduk.png" class="card-img-top" alt="penduduk">
-                    <div class="card-body">
-                        <h4>Jumlah penduduk yang terdata</h4>
-                        <p class="card-text"><b><?= $totalpenduduk; ?> Orang</b></p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-sm-4 mb-3">
-                <div class="card" style="width: 18rem;">
-                    <img src="/img/pendudukpria.png" class="card-img-top" alt="gambar">
-                    <div class="card-body">
-                        <h4>Penduduk berjenis kelamin laki-laki</h4>
-                        <p class="card-text"><b><?= $lakilaki; ?> Orang</b></p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-sm-4 mb-3">
-                <div class="card" style="width: 18rem;">
-                    <img src="/img/pendudukwanita.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h4>Penduduk berjenis kelamin perempuan</h4>
-                        <p class="card-text"><b><?= $perempuan; ?> Orang</b></p>
-                    </div>
+<!-- Content wrapper. contains page content -->
+<div class="content-wrapper">
+    <!-- Content Header (Kepala Konten) -->
+    <section class="content-header">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <h1>Welcome to dashboard</h1>
+                    <hr>
                 </div>
             </div>
         </div>
+    </section>
+    <!-- / Akhir section header -->
 
-        <div class="row mt-sm-3">
-            <div class="col">
-                <center>
-                    <img src="/img/background.png" alt="background" width="300">
-                </center>
+    <!-- Main section (Kontent Utama) -->
+    <section class="content">
+        <div class="container-fluid">
+            <!-- Small boxes (Stat box) -->
+            <div class="row justify-content-center">
+                <div class="col-lg-3 col-6">
+                    <!-- small box -->
+                    <div class="small-box bg-info">
+                        <div class="inner">
+                            <h3><?= $totalpenduduk; ?>&nbsp;<sup style="font-size: 20px">Jiwa</sup></h3>
+
+                            <p>Total Penduduk</p>
+                        </div>
+                        <div class="icon">
+                            <i class="ion ion-stats-bars"></i>
+                        </div>
+                        <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                    </div>
+                </div>
+                <!-- ./col -->
+                <div class="col-lg-3 col-6">
+                    <!-- small box -->
+                    <div class="small-box bg-success">
+                        <div class="inner">
+                            <h3><?= $lakilaki; ?>&nbsp;<sup style="font-size: 20px">Jiwa</sup></h3>
+
+                            <p>Penduduk laki-laki</p>
+                        </div>
+                        <div class="icon">
+                            <i class="ion ion-person-add"></i>
+                        </div>
+                        <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                    </div>
+                </div>
+                <!-- ./col -->
+                <div class="col-lg-3 col-6">
+                    <!-- small box -->
+                    <div class="small-box bg-warning">
+                        <div class="inner">
+                            <h3><?= $perempuan; ?>&nbsp;<sup style="font-size: 20px">Jiwa</sup></h3>
+
+                            <p>Penduduk Perempuan</p>
+                        </div>
+                        <div class="icon">
+                            <i class="ion ion-person-add"></i>
+                        </div>
+                        <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                    </div>
+                </div>
+                <!-- ./col -->
             </div>
+            <!-- /.row -->
         </div>
-    </div>
-</section>
+    </section>
+</div>
+<!-- / Akhir content wrapper -->
 <?= $this->endSection(); ?>

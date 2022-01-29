@@ -19,7 +19,11 @@ class Dashboard extends BaseController
             'lakilaki' => $this->pendudukModel->lakilaki(),
             'perempuan' => $this->pendudukModel->perempuan()
         ];
-        return view('dashboard/index', $data);
+        if (in_groups('Admin')) {
+            return view('dashboard/index', $data);
+        } else {
+            return redirect()->to("/pimpinan/index");
+        }
     }
 
     public function datapenduduk()

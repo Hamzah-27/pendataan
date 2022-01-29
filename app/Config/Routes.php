@@ -31,7 +31,17 @@ $routes->setAutoRoute(true);
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
+
 $routes->get('/', 'Dashboard::index');
+$routes->get('/dashboard/datapenduduk', 'Dashboard::datapenduduk', ['filter' => 'role:Admin']);
+$routes->get('/dashboard/create', 'Dashboard::create', ['filter' => 'role:Admin']);
+
+$routes->get('/pimpinan', 'Pimpinan::index', ['filter' => 'role:Pimpinan']);
+$routes->get('/pimpinan/index', 'Pimpinan::index', ['filter' => 'role:Pimpinan']);
+$routes->get('/pimpinan/laporandata', 'Pimpinan::laporandata', ['filter' => 'role:Pimpinan']);
+$routes->get('/pimpinan/lapdatalaki', 'Pimpinan::lapdatalaki', ['filter' => 'role:Pimpinan']);
+$routes->get('/pimpinan/lapdataperempuan', 'Pimpinan::lapdataperempuan', ['filter' => 'role:Pimpinan']);
+$routes->get('/pimpinan/detail', 'Pimpinan::detail', ['filter' => 'role:Pimpinan']);
 
 // $routes->get('/detail/(:any)', 'Dashboard::detail/$1');
 /*

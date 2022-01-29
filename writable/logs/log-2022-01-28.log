@@ -1,0 +1,92 @@
+CRITICAL - 2022-01-28 04:53:03 --> Call to undefined function Config\in_groups()
+#0 C:\xampp\htdocs\pendataan\system\CodeIgniter.php(705): require()
+#1 C:\xampp\htdocs\pendataan\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#2 C:\xampp\htdocs\pendataan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pendataan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\pendataan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-28 04:55:19 --> Call to undefined function Config\in_groups()
+#0 C:\xampp\htdocs\pendataan\system\CodeIgniter.php(705): require()
+#1 C:\xampp\htdocs\pendataan\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#2 C:\xampp\htdocs\pendataan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pendataan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\pendataan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-28 05:01:44 --> Undefined variable: totalpenduduk
+#0 C:\xampp\htdocs\pendataan\app\Views\pimpinan\index.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\pendataan\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pendataan\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pendataan\system\Common.php(1097): CodeIgniter\View\View->render('pimpinan/index', Array, true)
+#4 C:\xampp\htdocs\pendataan\app\Controllers\Dashboard.php(26): view('pimpinan/index')
+#5 C:\xampp\htdocs\pendataan\system\CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#6 C:\xampp\htdocs\pendataan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\pendataan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pendataan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\pendataan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-28 05:02:29 --> Undefined variable: totalpenduduk
+#0 C:\xampp\htdocs\pendataan\app\Views\pimpinan\index.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\pendataan\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pendataan\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pendataan\system\Common.php(1097): CodeIgniter\View\View->render('pimpinan/index', Array, true)
+#4 C:\xampp\htdocs\pendataan\app\Controllers\Dashboard.php(26): view('pimpinan/index')
+#5 C:\xampp\htdocs\pendataan\system\CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#6 C:\xampp\htdocs\pendataan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\pendataan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pendataan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\pendataan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-28 05:13:37 --> Call to undefined function Config\in_groups()
+#0 C:\xampp\htdocs\pendataan\system\CodeIgniter.php(705): require()
+#1 C:\xampp\htdocs\pendataan\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#2 C:\xampp\htdocs\pendataan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pendataan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\pendataan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-28 05:32:07 --> Undefined variable: totalpenduduk
+#0 C:\xampp\htdocs\pendataan\app\Views\pimpinan\index.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\pendataan\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pendataan\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pendataan\system\Common.php(1097): CodeIgniter\View\View->render('/pimpinan/index', Array, true)
+#4 C:\xampp\htdocs\pendataan\app\Controllers\Dashboard.php(25): view('/pimpinan/index')
+#5 C:\xampp\htdocs\pendataan\system\CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#6 C:\xampp\htdocs\pendataan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\pendataan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pendataan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\pendataan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-28 05:41:22 --> You do not have sufficient permissions to access that page.
+#0 C:\xampp\htdocs\pendataan\system\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\pendataan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('pimpinan', 'before')
+#2 C:\xampp\htdocs\pendataan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pendataan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\pendataan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-28 05:41:35 --> You do not have sufficient permissions to access that page.
+#0 C:\xampp\htdocs\pendataan\system\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\pendataan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('pimpinan/index', 'before')
+#2 C:\xampp\htdocs\pendataan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pendataan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\pendataan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-28 05:48:50 --> You do not have sufficient permissions to access that page.
+#0 C:\xampp\htdocs\pendataan\system\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\pendataan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('pimpinan/index', 'before')
+#2 C:\xampp\htdocs\pendataan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pendataan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\pendataan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-28 05:49:11 --> You do not have sufficient permissions to access that page.
+#0 C:\xampp\htdocs\pendataan\system\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\pendataan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('pimpinan/lapora...', 'before')
+#2 C:\xampp\htdocs\pendataan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pendataan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\pendataan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-28 21:40:03 --> You do not have sufficient permissions to access that page.
+#0 C:\xampp\htdocs\pendataan\system\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\pendataan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('pimpinan', 'before')
+#2 C:\xampp\htdocs\pendataan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pendataan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\pendataan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}

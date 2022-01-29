@@ -4,6 +4,8 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
+use function PHPUnit\Framework\returnSelf;
+
 class PendudukModel extends Model
 {
     protected $table = 'penduduk';
@@ -30,10 +32,20 @@ class PendudukModel extends Model
         $this->table('penduduk');
         return $this->table('penduduk')->like('jenkel','Laki-laki')->countAllResults();
     }
+
+    public function datalakilaki($jenkel = 'Laki-laki')
+    {
+        return $this->table('penduduk')->like('jenkel', $jenkel);
+    }
     public function perempuan()
     {
         $this->table('penduduk');
-        return $this->table('penduduk')->like('jenkel','Perempuan')->countAllResults();
+        return $this->table('penduduk')->like('jenkel', 'perempuan')->countAllResults();
+    }
+
+    public function dataperempuan($jenkel = 'Perempuan')
+    {
+        return $this->table('penduduk')->like('jenkel', $jenkel);
     }
 
     public function search ($cari)
